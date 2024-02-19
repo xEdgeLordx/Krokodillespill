@@ -79,14 +79,14 @@
             </div>
             
             <div>
-            <div class = "poengText" id = "poeng" >Poeng:</div>
+            <div class = "poengText" id = "poeng" >Points:</div>
             <div class = "buttonBox">
             <button onclick = "reset()">Reset</button>
             <button onclick = "Answer()">Submit</button>
             </div></div>
             </div>
         `
-        document.getElementById('poeng').innerHTML = "Poeng:  " + poeng;
+        document.getElementById('poeng').innerHTML = "Points:  " + poeng;
         if(poeng == -1){
             gameOver()
         } else if(poeng == 10){
